@@ -2,6 +2,7 @@ services:
   - type: web
     name: he-sarms-suite
     env: node
+    plan: free
     buildCommand: npm run build
     startCommand: npm start
     envVars:
